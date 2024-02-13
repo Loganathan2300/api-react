@@ -1,7 +1,7 @@
 import Table from "../component/Table";
 
 const Post = () => {
-    const header =["Name","Email","Body"]
+    const header =["Name","Email","About"]
     const data =[
         {
             "id": 1,
@@ -24,7 +24,7 @@ const Post = () => {
     ]
   return (
     <div>
-      <Table data={data} header={header}/>
+      <Table data={data} header={header} show={false}/>
     </div>
   );
 };

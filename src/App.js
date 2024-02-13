@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import GetApi from './page/GetApi';
+// import GetApi from './page/GetApi';
 import Post from './page/Post';
 
 // import GetApi from './page/GetApi';
